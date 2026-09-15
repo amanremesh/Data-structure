@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Target Frames</title>
+<style>
+body {
+    background-color: darkgreen;
+    margin: 0;
+    padding: 10px;
+}
+a {
+    display: block;
+    color: cyan;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+</style>
 </head>
-<frameset cols="15%,85%">
-    <frame src="menu.html" name="menuFrame">
-    <frame src="main.html" name="mainFrame">
-</frameset>
+<body>
+<a href="tkmce.html" target="mainFrame">TKMCE,Kollam</a>
+<a href="https://www.mountzioncollege.ac.in" target="mainFrame">MZCE,Kadammanitta</a>
+<a href="ecthrissur.html" target="mainFrame">EC,Thrissur</a>
+</body>
 </html>
