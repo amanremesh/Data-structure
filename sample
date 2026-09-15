@@ -3,23 +3,14 @@
 <head>
 <style>
 body {
-    background-color: darkgreen;
-    margin: 0;
-    padding: 10px;
-}
-a {
-    display: block;
-    color: cyan;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 10px;
+    background-color: lightgreen;
     font-family: Arial, sans-serif;
+    padding: 20px;
 }
 </style>
 </head>
 <body>
-<a href="tkmce.html" target="mainFrame">TKMCE,Kollam</a>
-<a href="https://www.mountzioncollege.ac.in" target="mainFrame">MZCE,Kadammanitta</a>
-<a href="ecthrissur.html" target="mainFrame">EC,Thrissur</a>
+<p><b>This is main page and content from any link will be displayed here.</b></p>
+<p><b>So now click any link and see the result.</b></p>
 </body>
 </html>
